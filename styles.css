@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    color: rgb(94, 92, 89);
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #888888;
+    text-align: center;
+    width: 350px;
+    min-height: 350px;
+    padding: 20px;
+    color: midnightblue;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.card h2, h3, h4 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.card img {
+    margin: 10px 0;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    opacity: 1;
+}
+
+#penelope-list {
+    list-style-type: none;
+}
+
+li:hover {
+    color: #1182eb;
+}
+
+span {
+    color: #b48ce0;
+    font-size: 1.5em;
+}
+
+a:visited {
+    color: burlywood;
+}

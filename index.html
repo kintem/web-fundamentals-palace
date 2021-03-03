@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>The Web Fundamentals Palace</title>
 </head>
 <body>
@@ -15,26 +16,26 @@
     </header>
     <main>
         <section>
-            <article>
+            <article class="card">
                 <h2>King Kieran</h2>
                 <img src="images/king.jpg" alt="King Kieran">
                 <p>
-                    My name is Kieran and I am the King. I like karate and kitesurfing. My son Peter is the heir to the throne.
+                    My name is Kieran and I am the King. I like karate and kitesurfing. My son <a href="#peter">Peter</a> is the heir to the throne.
                 </p>
             </article>
 
-            <article>
+            <article class="card">
                 <h2>Queen Queenie</h2>
                 <img src="images/queen.jpg" alt="Queen Queenie">
                 <p>
-                    My name is Queenie and I am the Queen. I like quizzes and quince jam. Click here to see my favourite quince jame recipe.
+                    My name is Queenie and I am the Queen. I like quizzes and quince jam. Click here to see my favourite quince jam recipe.
                     <a href="https://www.simplyrecipes.com/recipes/quince_jam/" target="_blank">Here</a>
                 </p>
             </article>
         </section>
 
         <section>
-            <article>
+            <article class="card" id="peter">
                 <h3>Prince Peter</h3>
                 <img src="images/prince-peter.jpg" alt="Prince Peter">
                 <p>
@@ -42,13 +43,13 @@
                 </p>
             </article>
 
-            <article>
+            <article class="card">
                 <h3>Princess Penelope</h3>
                 <img src="images/princess-penelope.jpg" alt="Princess Penelope">
                 <p>
                     My name is Penelope and I am the Princess. I like lots of things...
                 </p>
-                <ul>
+                <ul id="penelope-list">
                     <li>Pencils</li>
                     <li>Peanut Butter</li>
                     <li>Ponies</li>
@@ -57,7 +58,7 @@
             </article>
         </section>
         <section>
-            <article>
+            <article class="card">
                 <h4>Susan</h4>
                 <img src="images/susan.jpg" alt="Susan">
                 <p>I am King Kieran's Mistress and Mother to the illegitimate Princess.</p>
